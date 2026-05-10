@@ -92,12 +92,12 @@ struct Raycast : public cmn::SokolEngine {
 
 		for (int i = 0; i < width; i++) {
 			float x = cell_sz * i;
-			cmn::draw_line(x, 0, x, sapp_heightf(), { .5f, .5f, .5f, 1.0f });
+			cmn::draw_line(x, 0, x, sapp_heightf(), { .5f, .5f, .5f});
 		}
 
 		for (int j = 0; j < height; j++) {
 			float y = cell_sz * j;
-			cmn::draw_line(0, y, sapp_widthf(), y, { .5f, .5f, .5f, 1.0f });
+			cmn::draw_line(0, y, sapp_widthf(), y, { .5f, .5f, .5f});
 		}
 
 		for (int i = 0; i < width; i++) {
@@ -109,7 +109,7 @@ struct Raycast : public cmn::SokolEngine {
 				float y = cell_sz * j;
 				cmn::fill_rect(
 					x, y, cell_sz, cell_sz,
-					{ 1, 1, 1, 1 }
+					{ 1, 1, 1}
 				);
 			}
 		}
