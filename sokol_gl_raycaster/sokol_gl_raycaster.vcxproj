@@ -130,6 +130,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cmn\utils.h" />
     <ClInclude Include="raycast.h" />
     <ClInclude Include="sokol\render_utils.h" />
     <ClInclude Include="sokol\texture_utils.h" />

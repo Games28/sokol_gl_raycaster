@@ -29,5 +29,8 @@
     <ClInclude Include="raycast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cmn\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
